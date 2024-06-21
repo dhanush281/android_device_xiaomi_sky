@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_sky.mk
+    $(LOCAL_DIR)/stag_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_sky-ap1a-eng \
-    everest_sky-ap1a-userdebug \
-    everest_sky-ap1a-user
+    stag_sky-ap1a-eng \
+    stag_sky-ap1a-userdebug \
+    stag_sky-ap1a-user

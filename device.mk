@@ -368,7 +368,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-everest
+    $(DEVICE_PATH)/overlay-stag
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
