@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_sky.mk
+    $(LOCAL_DIR)/lineage_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_sky-ap1a-eng \
-    stag_sky-ap1a-userdebug \
-    stag_sky-ap1a-user
+    lineage_sky-ap1a-eng \
+    lineage_sky-ap1a-userdebug \
+    lineage_sky-ap1a-user
