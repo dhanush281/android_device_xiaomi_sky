@@ -7,7 +7,8 @@
 
 android_app {
     name: "XiaomiParts",
-
+    
+    init_rc: ["init.xiaomiparts.rc"],
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
     certificate: "platform",

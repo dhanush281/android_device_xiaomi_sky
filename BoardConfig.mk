@@ -123,6 +123,10 @@ TARGET_NO_KERNEL_OVERRIDE := true
 # Workaround to make lineage's soong generator work
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
+# Sepolicy - XiaomiParts
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    $(DEVICE_PATH)/sepolicy/private/xiaomi/devicesettings
+
 # Kernel Binary
 TARGET_KERNEL_VERSION := 5.10
 LOCAL_KERNEL := $(KERNEL_PATH)/Image
