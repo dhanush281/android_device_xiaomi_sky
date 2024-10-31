@@ -183,6 +183,13 @@
         <item>50</item>
     </integer-array>
 
+<!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
+    <integer-array name="config_availableColorModes">
+        <item>256</item>
+        <item>257</item>
+        <item>258</item>
+    </integer-array>
+
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
