@@ -654,3 +654,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     firmware_adrastea_wlan_mac.bin_symlink \
     firmware_adrastea_WCNSS_qcom_cfg.ini_symlink
+
+# Googlr camera
+$(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
