@@ -657,3 +657,6 @@ PRODUCT_PACKAGES += \
 
 # Googlr camera
 $(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)

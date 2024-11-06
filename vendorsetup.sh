@@ -1,3 +1,10 @@
+echo "Cloning Basic Call recorder..."
+
+# BCR
+git clone https://github.com/suvojit213/vendor_bcr.git vendor/bcr
+
+echo "done"
+
 echo "Cloning Google Camera..."
 
 # Camera
