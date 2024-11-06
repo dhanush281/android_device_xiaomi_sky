@@ -128,6 +128,10 @@ function blob_fixup() {
     vendor/lib64/libqtikeymint.so)
         "${PATCHELF}" --add-needed "android.hardware.security.rkp-V1-ndk.so" "${2}"
         ;;
+    vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy)
+        [ "$2" = "" ] && return 0
+        grep -q "setsockopt: 1" "${2}" || echo "setsockopt: 1" >> "${2}"
+        ;;
     vendor/lib64/libhme.so)
         "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
         ;;
