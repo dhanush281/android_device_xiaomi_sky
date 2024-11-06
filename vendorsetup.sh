@@ -1,3 +1,10 @@
+echo 'Inner tune Repo'
+
+# innertune music app
+git clone https://github.com/dhanush281/packages_apps_extrapacks.git packages/apps/InnerTune
+
+echo "done"
+
 echo "Cloning Basic Call recorder..."
 
 # BCR

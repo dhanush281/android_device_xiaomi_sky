@@ -655,6 +655,10 @@ PRODUCT_PACKAGES += \
     firmware_adrastea_wlan_mac.bin_symlink \
     firmware_adrastea_WCNSS_qcom_cfg.ini_symlink
 
+# InnerTune
+PRODUCT_PACKAGES += \
+    InnerTune
+
 # Googlr camera
 $(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
 
