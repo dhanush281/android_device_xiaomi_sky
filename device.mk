@@ -660,3 +660,6 @@ $(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# signed keys
+-include vendor/lineage-priv/keys/keys.mk
