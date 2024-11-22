@@ -200,6 +200,16 @@ vendor.display.enable_rounded_corner=1
 vendor.display.idle_time=0
 vendor.display.use_smooth_motion=1
 
+# Dex2oat
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=verify
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat64.enabled=true
+
 # DPM
 persist.vendor.dpm.vndr.idletimer.mode=default
 persist.vendor.dpm.vndr.halservice.enable=1
